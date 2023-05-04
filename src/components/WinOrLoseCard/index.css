@@ -1,0 +1,72 @@
+.win-lose-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.score-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff33;
+  padding: 50px;
+}
+.result-image {
+  height: 380px;
+}
+
+.result-card {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.result-text {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.result-score-text {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.result-score {
+  color: #6a59ff;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.result-button {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .score-card-container {
+    flex-direction: column;
+  }
+
+  .result-image {
+    height: 250px;
+  }
+  .result-text {
+    font-size: 35px;
+  }
+  .result-card {
+    order: 1;
+  }
+  .result-score-text {
+    font-size: 25px;
+  }
+}

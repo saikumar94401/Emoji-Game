@@ -1,0 +1,31 @@
+.emoji-logo-container {
+  display: flex;
+}
+
+.navbar-container {
+  height: 10vh;
+  opacity: 0.5;
+  background-color: #ffffff33;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-top: 5px;
+  padding-right: 150px;
+}
+.emoji-logo-text {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.score-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.score {
+  margin-right: 10px;
+}

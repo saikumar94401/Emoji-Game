@@ -1,0 +1,17 @@
+.each-emoji {
+  background-color: #ffffff33;
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.each-emoji-image {
+  height: 150px;
+  cursor: pointer;
+}
+
+.each-emoji-button {
+  background-color: transparent;
+  border: none;
+}
